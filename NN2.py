@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
 
-data = pd.read_csv(r"C:\Users\shrav\OneDrive\Desktop\Shravanthi\Python files\NN\NNtrain.csv")
+data = pd.read_csv(r"C:\Users\shrav\OneDrive\Desktop\Shravanthi\Python files\NN\NNtrain.csv") #MNIST dataset
 
 data = np.array(data)
 m, n = data.shape #getting dimensions of data m= no. of rows, n = no. of features + 1
